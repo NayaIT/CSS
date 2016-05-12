@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+table {
+    border-collapse: collapse;
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+td, th {
+    border: 1px groove;
+    width: 20%;
+    padding-left: 2%;
+}
+td{
+    line-height: 20px;
+}
+table img {
+    vertical-align: middle;
+    width: 30px;
+}
+
+table th {
+    color: white;
+    font-weight: normal;
+    padding: 1%;
+    text-align: left;
+    font-family: "Arial Narrow";
+    font-size: 13px;
+    background: -webkit-linear-gradient(rgb(94, 195, 6) 95%, rgb(64, 127, 41)); /* For Safari */
+    background: -o-linear-gradient(rgb(94, 195, 6) 95%, rgb(64, 127, 41)); /* For Opera  */
+    background: -moz-linear-gradient(rgb(94, 195, 6) 95%, rgb(64, 127, 41)); /* For Firefox  */
+    background: linear-gradient(rgb(94, 195, 6) 95%, rgb(64, 127, 41)); /* Standard syntax */
+}
+tr:nth-child(even) {
+    background: rgb(221,220,204); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(221,220,204,1) 0%, rgba(236,236,216,1) 47%, rgba(242,241,222,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(221,220,204,1) 0%,rgba(236,236,216,1) 47%,rgba(242,241,222,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(221,220,204,1) 0%,rgba(236,236,216,1) 47%,rgba(242,241,222,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dddccc', endColorstr='#f2f1de',GradientType=0 ); /* IE6-9 */
+}
+tr:nth-child(odd) {
+    background-color: white;
+}
+tr td:last-child{
+    width:1%;
+    white-space:nowrap;
+}
