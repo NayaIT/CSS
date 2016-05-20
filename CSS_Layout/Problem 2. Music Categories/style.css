@@ -1,0 +1,59 @@
+body {
+    background-color: #eeeeee;
+}
+#musicCategory {
+    float: left;
+    font-family: Arial;
+    font-size: 14px;
+}
+h2 {
+    font-size: 1.5em;
+    font-weight: lighter;
+    font-family: Arial Narrow;
+}
+.musicPost {
+    background-color: #ffffff;
+    border: 1px solid #4f4f4f;
+    padding: 15px;
+    overflow: auto;
+    width: 400px;
+    margin: 40px 0 30px 0;
+}
+p{
+    font-size: 1.2em;
+}
+.content p {
+    width: 250px;
+}
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #3e3d3d;
+}
+img {
+    float: left;
+    border: 1px solid #4f4f4f;
+}
+.content {
+    float: left;
+    margin-left: 20px;
+    width: 220px;
+}
+.buttons {
+    float: right;
+    display: inline;
+}
+.firstButton {
+    background-image: url("images/firstButton.png");
+    width: 73px;
+    height: 25px;
+    border: none;
+    color: #ffffff;
+}
+.secondButton {
+    background-image: url("images/secondButton.png");
+    width: 59px;
+    height: 25px;
+    border: none;
+    color: #ffffff;
+}

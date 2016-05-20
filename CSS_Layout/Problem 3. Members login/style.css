@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#webContent {
+    margin: 0;
+    padding: 0;
+    width: 700px;
+
+}
+
+header > img {
+    vertical-align: middle;
+}
+
+header {
+    background-color: #3d3d3d;
+    border-bottom: 2px solid #222222;
+    display: inline-block;
+    color: #ffffff;
+    font-size: 25px;
+    padding: 20px 10px 20px;
+    width: 100%;
+}
+
+input[type="text"], input[type="email"] {
+    display: inline-block;
+    height: 25px;
+    width: 150px;
+}
+
+input[type="submit"] {
+    display: inline-block;
+    color: #ffffff;
+    border: none;
+    background: url("images/Go.png");
+    background-size: 100% 100%;
+    width: 50px;
+    height: 25px;
+}
+
+header img, header input {
+    margin: 0 20px 0;
+}
+
+header img {
+    display: inline-block;
+    width: 45px;
+    height: 40px;
+    vertical-align: central;
+}
+
+section h2 {
+    color: #FFD616;
+    margin: 20px 5px;
+}
+
+section {
+    width: 100%;
+    background-color: #3B3B3B;
+    color: #A3A3A3;
+    padding: 10px;
+}
+
+section a {
+    text-decoration: none;
+    color: #A3A3A3;
+}
+
+section span {
+    color: #FEFEFE;
+}

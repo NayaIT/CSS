@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    color: #3d3d3d;
+}
+ul {
+    list-style-type: none;
+}
+.sub {
+    display: none;
+}
+.sub a {
+    color: #8e8c8c;
+}
+.general li:hover ul {
+    display: block;
+}
+.general li a:hover {
+    text-decoration: underline;
+}
