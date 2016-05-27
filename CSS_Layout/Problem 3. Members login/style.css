@@ -12,15 +12,15 @@ body {
 
 header > img {
     vertical-align: middle;
-}
 
+}
 header {
     background-color: #3d3d3d;
     border-bottom: 2px solid #222222;
     display: inline-block;
     color: #ffffff;
     font-size: 25px;
-    padding: 20px 10px 20px;
+    padding: 10px 10px 10px 10px;
     width: 100%;
 }
 
@@ -41,7 +41,7 @@ input[type="submit"] {
 }
 
 header img, header input {
-    margin: 0 20px 0;
+    margin: 0 10px 0;
 }
 
 header img {

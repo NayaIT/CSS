@@ -1,37 +1,45 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html lang="en">
+
 <head>
-    <title>News Site</title>
-    <meta charset="utf-8" />
-    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <title>News site</title>
+    <link rel="stylesheet" href="styles/style.css" style type="text/css">
 </head>
+
 <body>
-<header>
-    <nav>
-        <ul>
-            <li id="menu"><a href="#">Новините</a></li>
-            <li><a href="#">Спорт</a></li>
-            <li><a href="#">Емисии</a></li>
-            <li><a href="#">Любопитно</a></li>
-            <li><a href="#">Аз, репортерът</a></li>
-            <li><a href="#">Тази сутрин</a></li>
-        </ul>
-    </nav>
-</header>
-
-<section>
-    <ul>
-        <li id="activeNews">Интернет новини 13.07.2010 г.</li>
-        <li>Проливни дъждове в Дания, Китай и Индия, необичайни горещини в Иран</li>
-        <li>Над 200 хектара горят на територията на бивш военен полигон в Германия</li>
-        <li>23-ма ранени при сблъсък на два пътнически влака в Полша</li>
-        <li>Диференцират от догодина минималния осигурителен доход за самоосигуряващите се</li>
-    </ul>
-
-    <!--<iframe width="420" height="315"
-            src="http://www.youtube.com/embed/XGSy3_Czz8k?autoplay=1">
-    </iframe>-->
-    <img src="images/news.png" alt="news" />
-</section>
+    <div id="container" class="clearfix">
+        <nav>
+            <ul>
+                <li class="current"><a href="#">Новините</a></li>
+                <li><a href="#">Спорт</a></li>
+                <li><a href="#">Емисии</a></li>
+                <li><a href="#">Любопитно</a></li>
+                <li><a href="#">Аз, репортерът</a></li>
+                <li><a href="#">Тази сутрин</a></li>
+            </ul>
+        </nav>
+        <section class="news">
+            <header>
+                <a href="#">Интернет новини - 13.07.2010 г.</a>
+            </header>
+            <article>
+                <a href="#">Проливни дъждове в Дания, Китай и Индия, необичайни горещини в Иран</a>
+            </article>
+            <article>
+                <a href="#">Над 200 хектара горят на територията на бивш военен полигон в Германия</a>
+            </article>
+            <article>
+                <a href="#">23-ма ранени при сблъсък на два пътнически влака в Полша</a>
+            </article>
+            <article>
+                <a href="#">Диференцират от догодина минималния осигурителен доход за самоосигуряващите се</a>
+            </article>
+        </section>
+        <div class="video">            
+            <iframe src="http://vid.btv.bg/vod/2010/07/13/1908916155.mp4"></iframe>
+        </div>
+    </div>
 </body>
+
 </html>

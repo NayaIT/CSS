@@ -253,8 +253,9 @@ body aside > ul > li ul li {
     margin-left: 10px;
     margin-bottom: 0px;
     margin-right: 0px;
-    background: url(images/li-dot.png) no-repeat;
+    background: url(image/li-dot.png) no-repeat;
     background-position: 0 50%;
+    background-size: auto;
     padding-left: 25px;
 }
 
@@ -274,4 +275,22 @@ body footer p {
 
 img {
     border-image-slice:fill;
+}
+@font-face {
+    font-family: "ITCEDSCR.TTF";
+    src: url("fonts/ITCEDSCR.TTF");
+}
+#logo{
+    font-size: 4.9em;
+    font-family: 'ITCEDSCR.TTF';
+    font-weight: bold;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-color: #603382;
+    -webkit-text-stroke-width: 0.1px;
+}
+button{
+    color:white;
+    border-color: purple;
+    box-shadow: 2px 1px 1px black;
+    border-style: outset;
 }
